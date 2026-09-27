@@ -1,36 +1,179 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✦ Sidra Tul Muntaha — Personal Portfolio
 
-## Getting Started
+A modern, responsive personal portfolio built to showcase my skills, projects, education, experience, and journey as a **Web Developer**.
 
-First, run the development server:
+The portfolio focuses on clean UI, responsive design, smooth interactions, and a soft professional visual style.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Live Portfolio
+
+🌐 **Live Website:** [Add your deployed portfolio link here]
+
+## 👩‍💻 About
+
+Hi, I'm **Sidra Tul Muntaha**, a Web Developer who enjoys creating clean, modern, and responsive web experiences.
+
+I enjoy turning ideas and designs into functional, user-friendly websites while continuously learning modern web technologies and improving my development skills.
+
+## 🚀 Features
+
+* ✦ Responsive design for desktop, tablet, and mobile
+* ✦ Sticky navigation with responsive mobile menu
+* ✦ Hero section with personal introduction
+* ✦ About section with skills overview
+* ✦ Education & experience section
+* ✦ Projects showcase
+* ✦ Contact section with working social links
+* ✦ Email contact functionality
+* ✦ Responsive mobile navigation
+* ✦ Scroll-reveal animations
+* ✦ Reusable React/Next.js components
+* ✦ SEO-friendly metadata
+* ✦ Open Graph metadata and social sharing image
+* ✦ Custom favicon and personal branding
+* ✦ Consistent ivory, dusty rose, and sage color palette
+
+## 🛠️ Technologies & Tools
+
+### Development
+
+* Next.js
+* React
+* JavaScript
+* TypeScript
+* Tailwind CSS
+* HTML
+* CSS
+
+### Backend & Database
+
+* Supabase
+
+### Design
+
+* Figma
+* Canva
+* UI/UX Design
+* Responsive Design
+
+### Development Tools
+
+* Git
+* GitHub
+* Vercel
+* Netlify
+* VS Code
+
+## 📂 Portfolio Sections
+
+### 🏠 Home
+
+A simple introduction with my name, role, short description, and a link to explore my work.
+
+### 🌷 About
+
+An introduction to who I am, my development interests, and the type of web experiences I enjoy creating.
+
+### 💻 Skills
+
+A categorized overview of my frontend development, UI/UX, backend/database, and development tools.
+
+### 🎓 Education & Experience
+
+Highlights of my web development education and practical experience, including my Web Development Course and Web Engineering Internship.
+
+### ✦ Projects
+
+A collection of selected projects demonstrating my development, design, and problem-solving skills.
+
+### 💌 Contact
+
+A simple way to get in touch with me through email, GitHub, and LinkedIn.
+
+## 🎨 Design
+
+The portfolio uses a soft and professional visual theme inspired by:
+
+* **Warm Ivory** — `#FFF9F7`
+* **Dusty Rose** — `#E8A0B8`
+* **Soft Blush** — `#F7DDE5`
+* **Sage** — `#7F9477`
+* **Charcoal** — `#29262A`
+
+The design combines minimal layouts, rounded cards, subtle borders, decorative shapes, and smooth scroll-reveal animations.
+
+## 📱 Responsive Design
+
+The portfolio is designed to work across:
+
+* 🖥️ Desktop
+* 💻 Laptop
+* 📱 Mobile
+* 📟 Tablet
+
+The navigation, cards, typography, spacing, and layouts adapt to different screen sizes.
+
+## 📁 Project Structure
+
+```text
+portfolio/
+├── public/
+│   ├── images/
+│   ├── certificates/
+│   └── ...
+│
+├── src/
+│   └── components/
+│       ├── Navbar.tsx
+│       ├── Hero.tsx
+│       ├── About.tsx
+│       ├── Skills.tsx
+│       ├── Experience.tsx
+│       ├── Projects.tsx
+│       ├── Contact.tsx
+│       ├── Footer.tsx
+│       ├── DecorativeShapes.tsx
+│       └── ScrollReveal.tsx
+│
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+│
+├── package.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌱 What I Learned
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Building this portfolio helped me strengthen my understanding of:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Next.js and React component architecture
+* Tailwind CSS
+* Responsive web design
+* Reusable components
+* Modern navigation patterns
+* SEO metadata
+* Open Graph configuration
+* Git and GitHub workflow
+* Deployment workflows
+* UI/UX principles
+* Creating accessible and user-friendly interfaces
+* Building and testing a production-ready web project
 
-## Learn More
+## 🔗 Connect With Me
 
-To learn more about Next.js, take a look at the following resources:
+**GitHub:** [Your GitHub Profile]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**LinkedIn:** [Your LinkedIn Profile]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Email:** [muntaha.0136@gmail.com]
 
-## Deploy on Vercel
+## 📌 Future Improvements
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I plan to continue improving the portfolio by adding new projects, refining the user experience, and exploring more modern web technologies as I grow as a developer.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+### ✦ Better Code • Brighter Ideas
+
+Made with 💗 by **Sidra Tul Muntaha**
