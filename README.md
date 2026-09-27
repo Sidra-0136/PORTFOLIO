@@ -6,7 +6,7 @@ The portfolio focuses on clean UI, responsive design, smooth interactions, and a
 
 ## ✨ Live Portfolio
 
-🌐 **Live Website:** [Add your deployed portfolio link here]
+🌐 **Live Website:** [View My Portfolio] (https://portfolio-sigma-wine-34.vercel.app/)
 
 ## 👩‍💻 About
 
@@ -162,11 +162,7 @@ Building this portfolio helped me strengthen my understanding of:
 
 ## 🔗 Connect With Me
 
-**GitHub:** [Your GitHub Profile]
-
-**LinkedIn:** [Your LinkedIn Profile]
-
-**Email:** [muntaha.0136@gmail.com]
+**LinkedIn:** [Connect On LinkedIn] (https://www.linkedin.com/in/sidra-tul-muntaha-35853a421/)
 
 ## 📌 Future Improvements
 
