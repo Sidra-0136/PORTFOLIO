@@ -15,12 +15,12 @@ export default function Hero() {
         </h1>
 
         <h2 className="hero-title mt-3 text-xl text-[#E8A0B8] sm:mt-4 sm:text-2xl md:text-3xl">
-          Frontend Web Developer
+          Web Developer
         </h2>
 
         <p className="hero-description mx-auto mt-5 max-w-xl text-sm leading-7 text-[#29262A]/70 sm:mt-6 sm:text-base sm:leading-8 md:mx-0 md:text-lg">
-          I create clean, modern, and responsive websites with a focus on
-          beautiful design and great user experiences.
+          I build clean, modern, and responsive web experiences with a focus on
+functional development, beautiful design, and great user experiences.
         </p>
 
         {/* Button */}

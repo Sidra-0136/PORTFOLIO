@@ -1,3 +1,4 @@
+import ScrollReveal from "./ScrollReveal";
 import { Pacifico } from "next/font/google";
 
 const pacifico = Pacifico({
@@ -40,11 +41,13 @@ export default function Skills() {
       id="skills"
       className="min-h-screen bg-[#FFF9F7] px-4 py-14 sm:px-6 sm:py-16 md:px-16 md:py-20"
     >
+
       {/* Section Heading */}
-      <div className="text-center">
-        <h2 className="text-3xl font-serif text-[#29262A] sm:text-4xl md:text-5xl">
-          My Skills
-        </h2>
+      <ScrollReveal>
+        <div className="text-center">
+          <h2 className="text-3xl font-serif text-[#29262A] sm:text-4xl md:text-5xl">
+            My Skills
+          </h2>
 
         <div className="mx-auto mt-4 flex items-center justify-center gap-3">
           <span className="h-px w-12 bg-[#7F9477] sm:w-16"></span>
@@ -62,7 +65,7 @@ export default function Skills() {
       {/* Skills Cards Grid */}
       <div className="mx-auto mt-10 grid max-w-6xl grid-cols-1 gap-5 sm:mt-12 sm:gap-6 md:grid-cols-2 md:auto-rows-fr">
         {/* FRONTEND DEVELOPMENT */}
-        <div className="rounded-xl border-2 border-[#7F9477] bg-white p-4 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-5 md:h-full">
+        <div className="rounded-2xl border border-[#7F9477]/30 bg-white p-4 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md sm:p-5 md:h-full">
           <div className="flex items-start gap-3 sm:items-center sm:gap-4">
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#F7DDE5] sm:h-14 sm:w-14">
               <Code2 className="h-6 w-6 text-[#E8A0B8] sm:h-7 sm:w-7" />
@@ -70,11 +73,11 @@ export default function Skills() {
 
             <div className="min-w-0">
               <h3 className="text-lg font-serif font-semibold leading-tight text-[#29262A] sm:text-xl">
-                Frontend Development
+                Web Development
               </h3>
 
               <p className="mt-1 text-xs leading-5 text-[#29262A]/60 sm:text-sm">
-                Building modern and interactive web applications.
+                Building modern, responsive, and interactive web applications.
               </p>
             </div>
           </div>
@@ -118,7 +121,7 @@ export default function Skills() {
         </div>
 
         {/* DESIGN & UI/UX */}
-        <div className="rounded-xl border-2 border-[#7F9477] bg-white p-4 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-5 md:h-full">
+        <div className="rounded-2xl border border-[#7F9477]/30 bg-white p-4 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md sm:p-5 md:h-full">
           <div className="flex items-start gap-3 sm:items-center sm:gap-4">
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#F7DDE5] sm:h-14 sm:w-14">
               <Palette className="h-6 w-6 text-[#E8A0B8] sm:h-7 sm:w-7" />
@@ -184,7 +187,7 @@ export default function Skills() {
         </div>
 
         {/* BACKEND & DATABASE */}
-        <div className="rounded-xl border-2 border-[#7F9477] bg-white p-4 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-5 md:h-full">
+        <div className="rounded-2xl border border-[#7F9477]/30 bg-white p-4 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md sm:p-5 md:h-full">
           <div className="flex items-start gap-3 sm:items-center sm:gap-4">
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#F7DDE5] sm:h-14 sm:w-14">
               <Database className="h-6 w-6 text-[#E8A0B8] sm:h-7 sm:w-7" />
@@ -225,7 +228,7 @@ export default function Skills() {
         </div>
 
         {/* TOOLS & DEPLOYMENT */}
-        <div className="rounded-xl border-2 border-[#7F9477] bg-white p-4 shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-5 md:h-full">
+        <div className="rounded-2xl border border-[#7F9477]/30 bg-white p-4 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-md sm:p-5 md:h-full">
           <div className="flex items-start gap-3 sm:items-center sm:gap-4">
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#F7DDE5] sm:h-14 sm:w-14">
               <Settings className="h-6 w-6 text-[#E8A0B8] sm:h-7 sm:w-7" />
@@ -281,6 +284,7 @@ export default function Skills() {
 
         <span className="h-px w-10 bg-[#7F9477] sm:w-16"></span>
       </div>
+      </ScrollReveal>
     </section>
   );
 }

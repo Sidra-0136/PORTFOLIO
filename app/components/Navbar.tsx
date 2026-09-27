@@ -44,7 +44,7 @@ export default function Navbar() {
           </a>
 
           <a href="#experience" className={linkClass}>
-            Experience
+            Education
           </a>
 
           <a href="#projects" className={linkClass}>
@@ -78,7 +78,7 @@ export default function Navbar() {
           isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="mt-3 flex flex-col items-center gap-1 border-t border-[#7F9477]/20 pt-3">
+        <div className="mt-3 flex flex-col items-center gap-1 rounded-2xl border border-[#7F9477]/20 bg-[#FFF9F7] p-3 shadow-sm">
           <a
             href="#home"
             onClick={closeMenu}
